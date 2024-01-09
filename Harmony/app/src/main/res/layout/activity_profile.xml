@@ -1,0 +1,90 @@
+<!-- res/layout/activity_profile.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Profile Picture -->
+    <ImageView
+        android:id="@+id/profilePictureImageView"
+        android:layout_width="192dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="2"
+        android:src="@drawable/ic_baseline_person_24" />
+
+    <!-- User Information -->
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profilePictureImageView"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:hint="Username" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameTextView"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:hint="Name" />
+
+    <TextView
+        android:id="@+id/surnameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTextView"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:hint="Surname" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/surnameTextView"
+        android:hint="E-mail"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/birthdayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailTextView"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:hint="Birthday" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/birthdayTextView"
+        android:hint="Phone"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_weight="1" />
+
+    <!-- Edit Button -->
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneTextView"
+        android:layout_weight="1"
+        android:text="Edıt"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

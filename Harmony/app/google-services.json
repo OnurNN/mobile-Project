@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "555541694986",
+    "project_id": "harmonymobil-cdcb6",
+    "storage_bucket": "harmonymobil-cdcb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555541694986:android:042a3b919d10bf21256df3",
+        "android_client_info": {
+          "package_name": "onur.example.harmony"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASPsjqpANR681-fCuAkmU3GeQGhrPIkmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
